@@ -1,0 +1,2491 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------เพจหน้าลงทะเบียนหนังสือ-----*/
+.box_menu_regisbook{
+	display:flex;
+	padding:0px auto;
+	margin:0px auto;
+	width:100%;
+	height:50px;
+	text-align:center;
+	/*border:solid 1px #FF0000;*//*สีแดง*/}
+.menu_tabregis {
+	display:inline-table;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.31%;
+  background-color:#2980B9 ;
+}
+
+.menu_tabregis:hover {
+  background-color: #777;
+}
+.box_all_regis{
+	width:100%;
+	height:100%;	
+	justify-content: center;
+  	align-items: center;
+	display:inline-table;
+	padding:0px auto;
+	margin:0px auto;
+	text-align:center;
+	/* background: rgb(42,224,221);
+	background: linear-gradient(225deg, rgba(42,224,221,1) 0%, rgba(29,226,253,1) 50%, rgba(69,159,252,1) 100%);	 */
+	/*border:solid 3px #FF0000;*//*สีแดง 3 */}
+/* Style the tab content (and add height:100% for full page content) */
+.box_tab_menuregisbook{
+  display: none;
+  width:100%;
+ /*padding: 100px 20px;*/
+}
+#tab_menu_regisbooklib{
+	width:100%;
+	height:100%;
+	padding:0px auto;
+	margin:0px auto;
+	text-align:center;
+	background-color:#f9f0f0;/*สีเทา*/}	
+.box_speckbar{
+	height:30px;}
+.boxbody_regisbook{
+	/*position:relative;
+	left:20px;*/
+	text-align:right;
+	padding:auto;
+	margin:auto;
+	background:#FBFCFC ;
+	width:100%;
+	display:inline-table;
+	height:800px;
+	/*border: solid 1px #0099FF;*/ /*สีฟ้า*/}	
+.box_menuSearch{
+	
+	display:inline-table;
+	height:50px;
+	width:100%;
+	display: flex;
+	justify-content:right;
+	text-align:right;
+/*vertical-align: middle;*/
+	/*border:solid 1px #00F;*//*สีน้ำเงิน*/}
+.btn-copy-cs{
+	cursor:pointer;
+	color:#2874A6;	
+	padding:0px;
+	margin:5px;
+	width:50px;
+	height:45px;
+	outline:none;
+	border:none;
+	background:none;
+	text-decoration:none;
+	border-radius:5px;
+	border:solid 1px #2874A6 ;/*ดำ*/}
+.btn-copy-cs i{	
+	font-size:34px;}
+.btn-copy-cs i:hover{
+	color:red;
+	font-size:34px;}					
+.mainboxSearch_regis{
+	margin-right:50px;
+	display:inline-table;
+	width:400px;
+	height:45px;
+	outline:none;
+	border:none;
+	text-decoration:none;
+	background-color:none;
+	/* border:solid 1px #006633; */
+}
+.lb_Search_regis{
+	color:#2874A6;
+	margin-top:2px;
+	position:absolute;
+	font-size:26px;}
+.ipt_Search_regis{
+	text-align: center;
+	font-size:18px;
+	padding-left:90px;
+	width:300px;
+	height:40px;
+	right:10px;
+	outline:none;
+	border:none;
+	background:none;
+	text-decoration:none;
+	border-bottom:solid 1px #2874A6;}
+.btn_editregis, .btn_delregis{
+	width:50px;
+	height:45px;	
+	margin:5px;
+	outline:none;
+	border:none;
+	text-decoration:none;
+	border-radius:5px;
+	cursor:pointer;
+	color:#2874A6;
+	border:solid 1px #2874A6;/*ดำ*/}
+.btn_newregis{
+	cursor:pointer;
+	color:#2874A6;
+	width:50px;
+	height:45px;
+	margin:5px;
+	outline:none;
+	border:none;
+	background:none;
+	text-decoration:none;
+	border-radius:5px;
+	border:solid 1px #2874A6 ;/*ดำ*/}	  
+#icon_btn_addNewbook{
+	cursor:pointer;
+	font-size:42px;}
+#icon_btn_addNewbook:hover{
+	color:#5DADE2;}
+#icon_btn_delAddNewbook{
+	font-size:42px;}
+#icon_btn_delAddNewbook:hover{
+	color:#5DADE2 ;}	
+.box_main_search_listname_regis{
+	/*display:inline-table;*/
+	width:100%;
+	position:relative;
+	/*border:solid 1px #CC6600;*//*สีน้ำดาลแก่*/}
+.regis_detailbook{
+	display:inline-table;
+	text-align:left;
+	margin:20px 0px;
+	position:absolute;
+	left:25px;
+	width:60%;
+	height:100%;
+	border:none;
+	border-right:solid 1px #5DADE2;
+	border-bottom:solid 1px #5DADE2;
+	/*border:solid 1px #000;*//*สีดำ*/}
+#foolterset-css{
+		text-align: right;
+		color: rgb(170, 169, 169);
+}		
+	/*----------------------------บล็อค input  รูปภาพหน้าลงทะเลียนหนังสือ---------------------*/
+.regis_detailbook span{
+	color:#2874A6 ;
+	background:none;
+	outline:none;
+	border:none;}
+.boxpicture{
+	text-align:center;
+	float:left;
+	width:200px;
+	display:block;
+	height:200px;
+	/*border:solid 1px #000000;*/}	
+.boxpic_regisbook{
+	display:inline-table;
+	width:100%;
+	height:150px;
+	/*border:solid 1px #FF0000;*//*สีแดง*/}	
+.content_boxpic{
+	position:relative;
+	display:inline-table;
+	width:110px;
+	height:140px;
+	text-align:center;
+	text-justify:center;
+	align-items:center;
+	border:2px dashed #6CF;}
+.image_file	{
+	position:absolute;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-item:center;
+	justify-content:center;}
+#img-picturenewbooks{
+	display:flex;}
+.icon_upload{
+	margin:30px 0px 0px 0px;
+	font-size:48px;
+	color:#6CF;}
+.text_name{
+	font-size:28px;
+	color:#6CF;}
+#cancel-btn{
+	cursor:pointer;
+	font-size:20px;
+	position:absolute;
+	right:10px;
+	color:#F00;
+	top:5px;
+	display:none;}
+.active:hover #cancel-btn{
+	display:block;}
+#custom-btn{
+	color:#FFF;
+	margin-top:10px;
+	width:120px;
+	height:25px;
+	cursor:pointer;
+	outline:none;
+	/*display:block;*/
+	border:none;
+	background:linear-gradient(135deg, #3a8ffe 0%,#9658fe 100%);}	
+.bt_ipt_picbookregis{
+	margin:0px 20px;}
+				
+	/*----------------------------END CODE CSSS---------บล็อค input  รูปภาพหน้าลงทะเลียนหนังสือ------------*/	
+.pic_regisbook{
+	display:block;
+	float:left;
+	margin:5px;
+	width:100px;
+	height:120px;
+	border:solid 1px #FF0000; /*สีแดง*/}
+.regis_box_listserch{
+	position:absolute;
+	text-align:center;
+	right:25px;
+	width:30%;
+	color:white;
+	height:630px;
+	background: #2980B9;
+	/*background: linear-gradient(225deg, rgba(42,224,221,1) 0%, rgba(29,226,253,1) 50%, rgba(69,159,252,1) 100%);*/
+	margin:20px 0px;
+	padding:10px;
+	border-radius:10px;
+	/*border:solid 1px #2874A6 ;*/ /*แดงแก่*/}
+.show_namebookregis{
+	border-radius:5px;
+	margin:10px 0px;
+	color:#2874A6;
+	background-color:#FDFEFE ;
+	padding:5px;
+	height:570px;
+	overflow-y:scroll;
+	/*border-bottom:solid 1px #0033FF;*//*น้ำเงิน*/}
+		
+.li_listSearchAd{
+	text-align:left;
+	width:100%;
+	height:20px;
+	font-size:13px;
+	word-break: keep-all;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	cursor:pointer;
+	/*border:solid 1px #CC00CC;*//*ชมฟู*/}
+.li_listSearchAd:hover{	
+	background-color:#AED6F1 ;}
+.img_boxbook{
+	width:100px;
+	height:120px;}
+.tbn_adregis_bookcopy{
+	position:fixed;
+	right:50px;
+	bottom:100px;
+	width:70px;
+	height:70px;
+	background-color: #4CAF50;
+	border-radius:50%;
+	color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+	transition: 1s;
+	-webkit-transition: 1s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+	/*border: 1px solid #444;*/
+	border-bottom:1px solid #444;
+	box-shadow: inset 0 i1px 0 0 rgba(255, 255, 255, .6), inset 0 -1px 0 0 rgba(0, 0, 0, .4);
+	background: linear-gradient(to bottom, #d33672, #5f3847);
+	}
+.tbn_adregis_bookcopy:hover{
+	background-color: #f77dac;
+	background: linear-gradient(to bottom, #f77dac, #d33672);}
+.tbn_adregis_bookcopy:active{
+	background: #c30e54;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, .8);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .8);}		
+.tbn_adregis_book{
+	position:fixed;
+	right:50px;
+	bottom:100px;
+	width:70px;
+	height:70px;
+	background-color: #4CAF50;
+	border-radius:50%;
+	color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+	transition: 1s;
+	-webkit-transition: 1s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+	/*border: 1px solid #444;*/
+	border-bottom:1px solid #444;
+	box-shadow: inset 0 i1px 0 0 rgba(255, 255, 255, .6), inset 0 -1px 0 0 rgba(0, 0, 0, .4);
+	background: linear-gradient(to bottom, #d33672, #5f3847);}
+.tbn_adregis_book:hover{
+	background-color: #f77dac;
+	background: linear-gradient(to bottom, #f77dac, #d33672);}
+.tbn_adregis_book:active{
+	background: #c30e54;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, .8);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .8);}
+
+.box_regisname{
+	width:500px;
+	height:45px;
+	display:flex;
+	border:none;
+	padding:0px 0px 0px 0px;
+	/* border: solid 1px #0000FF; */
+}
+.sp_namebookregisname{
+	width:80px;
+	margin: 20px 0px 0px 0px;
+	}	
+.ipt_nameregisname{
+	width:100%;	
+	border:none;
+	outline:none;
+	padding: 0px;	  
+	  display: inline-block;	  
+	  box-sizing: border-box;
+	/* border: solid 1px #0000FF; */
+	background-color:#EDF1F0;}	
+.box_regisgmd{
+	margin-top:25px;}	
+.selecttorGMD{
+	outline:none;
+	width:150px;
+	height:30px;
+	border:none;
+	background-color:#EDF1F0;}
+.box_regisathor, .box_regisyearcoppy, .box_regisyear, .box_regislib, .box_regisisbn{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:0px 0px 0px 10px;
+	/*border-bottom:solid 1px #999999;*/
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}	
+.sp_namebookregisathor, .sp_namebookregisyearcoppy, .sp_namebookregisyear, .sp_namebookregislib, .sp_namebookregisisbn{
+	width:100px;
+	margin: 20px 0px 0px 0px;}
+.ipt_nameregisathor, .ipt_nameregisyearcoppy, .ipt_nameregisyear, .ipt_nameregislib, .ipt_nameregisisbn{
+	width:70%;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#EDF1F0;}
+	/*------------------------------------------------------แก้ไข ผู้แต่ง--------------------------------------------------------------*/
+.box_regisByathor{
+	width:90%;
+	display:flex;
+	border:none;
+	margin:5px 0px 5px 5px;
+	/*border-bottom:solid 1px #999999;*/
+	/*border: solid 1px #0000FF;*//*สีน้ำเงิน*/}	
+.sp_namebookregisByathor{
+	width:150px;
+	margin: 10px 0px 0px 0px;}
+.box_subicon_Byathor{
+	display:flex;
+	width:88%;
+	overflow:scroll;
+	height:100px;
+	background-color:#EDF1F0;
+	/*border: solid 1px #0000FF;*/}	
+#iconAdd_Byathor{
+	font-size:36px;
+	font-weight:bold;
+	width:60px;}
+.tb_Byathor{
+	width:100%;
+	margin:10px;}
+#icondel_Byathor{
+	font-size:36px;
+	font-weight:bold;
+	width:60px;}					
+.box_regispuphlish{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:0px 0px 0px 10px;
+	/*border-bottom:solid 1px #999999;*/
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}	
+.sp_namebookregispuphlish{
+	width:150px;
+	margin: 20px 0px 0px 0px;}
+.ipt_nameregispuphlish{
+	width:80%;
+	height:35px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 1px 0px 0px 1px;	
+	/*border: solid 1px #0000FF;*/
+	background-color:#EDF1F0;}
+#iconAdd_puphlish{
+	width:60px;}
+.box_regislang{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:0px 0px 0px 10px;
+	/*border-bottom:solid 1px #999999;*/
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}	
+.sp_namebookregislang{
+	margin: 20px 0px 0px 0px;}
+.selecttorlang{
+	outline:none;
+	width:150px;
+	height:30px;
+	border:none;
+	margin: 10px 0px 0px 30px;
+	background-color:#EDF1F0;}
+.box_regisalbum{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:0px 0px 0px 10px;
+	/*border-bottom:solid 1px #999999;*/
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}	
+.sp_namebookregisalbum{
+	width:150px;
+	margin: 20px 0px 0px 0px;}
+.ipt_nameregisalbum{
+	width:85%;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#EDF1F0;}
+#iconAdd_byathor:hover{
+	color:#3CC;}		
+#iconAdd_regisbook{
+	margin:15px;
+	font-size:43px;}
+#icon_btn_editregis{
+	font-size:42px;}
+#icon_btn_editregis:hover{
+	color:red;}
+.td_Byathor{
+	cursor:pointer;
+	/*border:solid 1px #FF0000;*/}	
+/*--------------------------------------pop up search byathor  ค้นหาผู้แต่ง----------------------------------------*/
+.modal_box_popSearch_byathor{
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_byathor {
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:640px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popSearch_byathor{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popSearch_byathor:hover,
+.close_popSearch_byathor:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_popSearch_byathor{
+  width:95%;
+  display:block;
+  border-bottom:solid 1px #CCCCCC;
+  padding:10px;
+  margin:0px 10px 0px;}
+.ipt_popSearch_byathor{
+	width:50%;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;}
+.box_modal_iptSearch_byathor{
+	width:540px;
+	height:440px;
+	font-size:14px;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px 0px 50px;
+	overflow: scroll;
+	background-color:#CCC;
+	border-top:solid 1px #FF0000;
+	border-bottom:solid 1px #FF0000;
+	/*border:solid 1px #FF0000;*/}
+
+.boxmodal_list_user_byathor{
+	width:550px;
+	border-top:solid 1px #000000;	
+	/*border:solid 1px #000000;*/}
+.lbtb_code_byathor{padding:0px 0px;}
+.lbtb_byathor_name{padding:0px 40px;}
+.lbtb_stday_byathor{padding:0px 0px 0px 200px;}	
+.li_byathor{
+  border: none;
+  outline: none;
+  padding: 2.5px 16px;
+  background-color:#CCC;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.li_byathor:hover {
+  background-color: #666;
+  color: white;
+}
+.boxmodal_head_lit_us_byathor{
+	margin:5px;
+	/*border:solid 1px #FF0000;*/}
+.lbtb_byathor_name{
+	margin:20px;}
+.box_ad_byathor{
+	padding:auto;
+	margin:auto;
+	text-align:right;
+	width:100%;
+	/*border:solid 1px #FF0000;*/}
+.ad_byathor{
+	padding:0;
+	margin:0px 0px 0px 0px;
+	border:solid 1px silver;
+	width:40px;}
+.del_byathor{
+	padding:0;
+	border:solid 1px silver;
+	margin:0px 100px 0px 0px;
+	width:40px;}
+.tbcheckbox_byathor{
+	/*display:none;*/}														
+/*-------------------------------- end page regisbooks---------------------------*/
+/*-------------------------------------popup addnewbook and search book----------------------------------------*/
+.modal_box_popSearch_Addnewbooks{
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_Addnewbooks{
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:700px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popSearch_Addnewbooks{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popSearch_Addnewbooks:hover,
+.close_popSearch_Addnewbooks:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_popSearch_Addnewbooks{
+  width:95%;
+  display:block;
+  border-bottom:solid 1px #CCCCCC;
+  padding:10px;
+  margin:0px 0px 0px;
+ /* border:solid 1px #FF0000;*/}
+.ipt_popSearch_Addnewbooks{
+	width:60%;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 20px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;}
+.box_modal_iptSearch_Addnewbooks{
+	width:540px;
+	height:440px;
+	font-size:14px;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px 0px 50px;
+	overflow: scroll;
+	background-color:#CCC;
+	border-top:solid 1px #FF0000;
+	border-bottom:solid 1px #FF0000;
+	/*border:solid 1px #FF0000;*/}
+
+.boxmodal_list_user_Addnewbooks{
+	width:550px;
+	border-top:solid 1px #000000;	
+	/*border:solid 1px #000000;*/}
+.lbtb_code_Album{padding:0px 0px;}
+.lbtb_Puphlish_Album{padding:0px 40px;}
+.lbtb_stday_Album{padding:0px 0px 0px 200px;}
+
+
+/* Style the active class, and buttons on mouse-over */
+
+.boxmodal_head_lit_us_Addnewbooks{
+	margin:5px;
+	/*border:solid 1px #FF0000;*/}
+.lbtb_Addnewbooks{
+	margin:0px 0px 0px 50px;}
+.box_ad_Addnewbooks{
+	padding:auto;
+	margin:auto;
+	text-align:right;
+	width:100%;
+	/*border:solid 1px #FF0000;*/}
+.ad_Addnewbooks{
+	padding:0;
+	margin:0px 0px 0px 0px;
+	width:60px;
+	cursor:pointer;
+	color:#2874A6;	
+	height:45px;	
+	outline:none;
+	font-size:48px;
+	background:none;
+	border:none;
+	text-decoration:none;
+	border-radius:5px;}
+.ad_Addnewbooks:hover{
+	color:#85C1E9;}	
+.del_Addnewbooks{
+	padding:0;
+	margin:0px 100px 0px 0px;
+	width:60px;
+	cursor:pointer;
+	color:#2874A6;	
+	height:45px;	
+	outline:none;
+	font-size:48px;
+	background:none;
+	border:none;
+	text-decoration:none;
+	border-radius:5px;}
+.del_Addnewbooks:hover{
+	color:#85C1E9;}	
+.tbcheckbox_Addnewbooks{
+	/*display:none;*/}
+#iconAdd_Addnewbooks:hover{
+	color:#3CC;}			
+	
+.action_Addnewbooks{
+	height:40px;
+	width:60%;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	background-color:#FFEAE5;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}	
+.li_showAddNewbook{
+	list-style: none;
+	padding:2px;
+	margin:0px 10px;
+	cursor:pointer;
+}			
+ /* ---------------------------- css  หน้าเพจ ลงรายการ */
+ .regis_detailbook{
+	display:inline-table;
+	text-align:left;
+	margin:20px 0px;
+	position:absolute;
+	left:25px;
+	width:60%;
+	height:100%;
+	border:none;
+	border-right:solid 1px #5DADE2;
+	border-bottom:solid 1px #5DADE2;
+	/*border:solid 1px #000;*//*สีดำ*/}
+/*-------------------------------------------หน้าต่างลงรายการ ลงรายละเอียด----------------------------*/	
+.box_tab_menuregisbook{
+}
+.regis_detailbook_insertlist{
+display:inline-table;
+text-align:left;
+margin:20px 0px;
+position:absolute;
+left:25px;
+width:60%;
+height:100%;	
+/*border:solid 1px #000;*//*สีดำ*/}	
+.box_catbook_regis{
+width:90%;
+height:45px;
+display:flex;
+border:none;
+margin:30px 0px 30px 10px;
+border-bottom:solid 1px #999999;
+/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_catbook{
+width:200px;
+margin: 20px 0px 0px 0px;}
+.ipt_namecatbook{
+width:70%;
+height:20px;
+border:none;
+outline:none;
+padding:5px 0px 0px 0px;
+margin: 15px 0px 0px 10px;
+/*border: solid 1px #0000FF;*/
+background-color:#EDF1F0;}
+.box_code_byathor{
+width:300px;
+height:45px;
+display:flex;
+border:none;
+margin:20px 0px 20px 10px;
+border-bottom:solid 1px #999999;
+/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_code_byathor{
+width:200px;
+margin: 20px 0px 0px 0px;}
+.ipt_code_byauthor{
+width:100%;
+height:20px;
+border:none;
+outline:none;
+padding:5px 0px 0px 0px;
+margin: 15px 0px 0px 10px;
+/*border: solid 1px #0000FF;*/
+background-color:#EDF1F0;}	
+.box_academic_regis{
+	vertical-align: middle;
+	text-align: center;
+	text-align: justify;
+width:90%;
+height:45px;
+display:flex;
+border:none;
+margin:0px 0px 0px 0px;
+border-bottom:solid 1px #999999;
+/* border: solid 1px #0000FF; สีน้ำเงิน */
+}	
+.sp_namebookregisacademic{
+width:150px;
+margin: 20px 0px 0px 0px;}
+.box_subicon_academic{
+	display: inline-table;
+	/* background-color: red; */
+	width: 100%;
+}
+.bt_discheck_adcat{
+	vertical-align: middle;
+	text-align: center;
+	text-align: justify;
+	font-size:28px;	
+	font-weight:bold;
+}   	
+.box_regisHeadname{
+width:90%;
+display:flex;
+border:none;
+margin:50px 0px 50px 10px;
+border-bottom:solid 1px #999999;
+/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}	
+.sp_namebookregisHeadname{
+width:150px;
+margin: 20px 0px 0px 0px;}
+.box_subicon_Headname{
+display:flex;
+width:88%;
+overflow:scroll;
+height:100px;
+/*border: solid 1px #0000FF;*/}	
+#iconAdd_Headname{
+font-size:36px;
+font-weight:bold;
+width:60px;}		
+.box_regisnamemore{
+width:90%;
+height:100px;
+display:flex;
+border:none;
+margin:50px 0px 50px 10px;
+border-bottom:solid 1px #999999;
+/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}	
+.sp_namebookregisnamemore{
+width:150px;
+margin: 20px 0px 0px 0px;}
+.box_subicon_namemore{
+display:flex;
+width:88%;
+height:100px;
+/*border: solid 1px #0000FF;*/
+overflow:scroll;}
+
+/* width */
+::-webkit-scrollbar {
+width: 20px;
+}
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+	
+#iconAdd_namemore{
+font-size:36px;
+font-weight:bold;
+width:60px;}
+.tb_moreHeadname{
+width:100%;
+margin:10px;}
+.tb_HeadName{
+width:100%;
+margin:10px;}			
+.td_more{
+cursor:pointer;
+/*border:solid 1px #FF0000;*/}
+.td_more:hover{
+background-color:red;}		
+.td_Headname{
+cursor:pointer;
+/*border:solid 1px #FF0000;*/}
+.td_more:hover{
+background-color:red;}	
+#icondel_namemore{
+font-size:36px;
+font-weight:bold;
+width:60px;}
+
+/* ------------------------------------------------------css หน้าเพจ สำเนา */
+.box_regisbook_PCOPY_no{
+	width:300px;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+}
+.box_regisbook_PCOPY_no{
+	width:300px;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_no{
+	width:200px;
+	margin: 20px 0px 0px 0px;}
+.ipt_regisPCOPY_no{
+	width:100%;
+	font-size:24px;
+	height:30px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 8px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#f8f8f8;}			
+.box_regisbook_PCOPY_barcode{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:0px 0px 0px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_barcode{
+	width:200px;
+	margin: 20px 0px 0px 0px;}
+.ipt_regisPCOPY_barcode{
+	width:100%;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#f8f8f8;}
+.box_regisbook_PCOPY_CP{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_sp{
+	width:60px;
+	margin: 20px 0px 0px 0px;}
+.ipt_regisCOPY{
+	width:100%;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#f8f8f8;}
+.box_regisbook_PCOPY_cat{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_cat{
+	width:100px;
+	margin: 20px 0px 0px 0px;}
+.sel_regisPCOPY_cat{
+	outline:none;
+	width:250px;
+	height:30px;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 0px;}
+.sel_regisPCOPY_type{
+	width:100%;
+	height:30px;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;}
+.box_regisbook_PCOPY_byauthor{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_byauthor{
+	width:100px;
+	margin: 20px 0px 0px 0px;}
+.ipt_regisPCOPY_cat{
+	width:80%;
+	height:20px;
+	border:none;
+	outline:none;
+	background-color:#EDF1F0;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	}	
+.ipt_regisPCOPY_byauthor{
+	width:80%;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#EDF1F0;}
+.box_regisbook_PCOPY_status{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_status{
+	/*width:200px;*/
+	margin: 20px 0px 0px 0px;}
+.sel_regisPCOPY_status{
+	outline:none;
+	width:100%;
+	height:30px;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;}	
+.box_regisbook_PCOPY_numcode{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_numcode{
+	width:200px;
+	margin: 20px 0px 0px 0px;}
+.ipt_regisPCOPY_numcode{
+	width:100%;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#EDF1F0;}
+.box_regisbook_PCOPY_dat{
+	width:90%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_dat{
+	width:60px;
+	margin: 20px 0px 0px 0px;}
+.ipt_regisdat{
+	width:100%;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#EDF1F0;}
+.box_regisbook_PCOPY_memo{
+	width:96%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_memo{
+	width:60px;
+	margin: 20px 0px 0px 0px;}
+.ipt_regismemo{
+	width:100%;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 30px;
+/*	border: solid 1px #0000FF;*/
+	background-color:#EDF1F0;}
+.box_regisbook_PCOPY_dealer{
+	width:96%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_dealer{
+	width:150px;
+	margin: 20px 0px 0px 0px;}
+.sel_regisPCOPY_dealer{
+	outline:none;
+	width:250px;
+	height:30px;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;}
+.box_regisbook_PCOPY_bath{
+	width:96%;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_bath{
+	width:60px;
+	margin: 20px 0px 0px 0px;}
+.ipt_regisbath{
+	width:250px;
+	height:20px;
+	border:none;
+	outline:none;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;
+	/*border: solid 1px #0000FF;*/
+	background-color:#EDF1F0;}
+.box_regisbook_PCOPY_out{
+	width:350px;
+	height:45px;
+	display:flex;
+	border:none;
+	margin:10px 0px 10px 10px;
+	border-bottom:solid 1px #999999;
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}
+.sp_label_regisPCOPY_out{
+	width:150px;
+	margin: 20px 0px 0px 0px;}
+.sel_regisPCOPY_out{
+	outline:none;
+	width:250px;
+	height:30px;
+	padding:5px 0px 0px 0px;
+	margin: 15px 0px 0px 10px;}															
+/*-----------------------------------------------------------*/
+.box_List_Itembook{
+	width:90%;
+	display:flex;
+	border:none;
+	margin:5px 0px 5px 10px;
+	/*border-bottom:solid 1px #999999;*/
+	/*border: solid 1px #0000FF;*/ /*สีน้ำเงิน*/}	
+.sp_List_Itembook{
+	width:100px;
+	margin: 20px 0px 0px 0px;}
+.box_subList_Itembook{
+	display:flex;
+	width:88%;
+	overflow:scroll;
+	height:100px;
+	border: solid 1px #D0D3D4 ;}
+.tr_Litcopybook{
+	cursor:pointer;}
+.tr_Litcopybook:hover{
+	background-color:red;}		
+.td_Litcopybook_bc{
+	border:none;
+	width:150px;}
+.td_Litcopybook_cb{
+	border:none}	
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.tb_Listcodebook{
+	width:100%;
+	margin:10px;}
+.tb_Listcodebook{
+	width:100%;
+	margin:10px;}			
+.td_Listcodebook{
+	cursor:pointer;
+	/*border:solid 1px #FF0000;*/}
+.td_Listcodebook:hover{
+	background-color:red;}
+.bt_disble_check{
+	outline: none;
+ border: solid 1px silver;
+}
+/*--------------------------------------pop up search byathor  ค้นหาผู้แต่ง----------------------------------------*/
+.modal_box_popSearch_byathor{
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_byathor {
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:640px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popSearch_byathor{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popSearch_byathor:hover,
+.close_popSearch_byathor:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_popSearch_byathor{
+  width:95%;
+  display:block;
+  border-bottom:solid 1px #CCCCCC;
+  padding:10px;
+  margin:0px 10px 0px;}
+.ipt_popSearch_byathor{
+	width:50%;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;}
+.box_modal_iptSearch_byathor{
+	width:540px;
+	height:440px;
+	font-size:14px;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px 0px 50px;
+	overflow: scroll;
+	background-color:#CCC;
+	border-top:solid 1px #FF0000;
+	border-bottom:solid 1px #FF0000;
+	/*border:solid 1px #FF0000;*/}
+
+.boxmodal_list_user_byathor{
+	width:550px;
+	border-top:solid 1px #000000;	
+	/*border:solid 1px #000000;*/}
+.lbtb_code_byathor{padding:0px 0px;}
+.lbtb_byathor_name{padding:0px 40px;}
+.lbtb_stday_byathor{padding:0px 0px 0px 200px;}	
+.li_byathor{
+  border: none;
+  outline: none;
+  padding: 2.5px 16px;
+  background-color:#CCC;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.li_byathor:hover {
+  background-color: #666;
+  color: white;
+}
+.boxmodal_head_lit_us_byathor{
+	margin:5px;
+	/*border:solid 1px #FF0000;*/}
+.lbtb_byathor_name{
+	margin:20px;}
+.box_ad_byathor{
+	padding:auto;
+	margin:auto;
+	text-align:right;
+	width:100%;
+	/*border:solid 1px #FF0000;*/}
+.ad_byathor{
+	padding:0;
+	margin:0px 0px 0px 0px;
+	width:60px;}
+.del_byathor{
+	padding:0;
+	margin:0px 100px 0px 0px;
+	width:60px;}
+.tbcheckbox_byathor{
+	/*display:none;*/}
+	
+/*--------------------------------------pop up search Puphlish  ค้นหาสำนักพิมพ์----------------------------------------*/
+.modal_box_popSearch_Puphlish{
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_Puphlish{
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:700px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popSearch_Puphlish{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popSearch_Puphlish:hover,
+.close_popSearch_Puphlish:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_popSearch_Puphlish{
+  width:95%;
+  display:flex;
+  border-bottom:solid 1px #CCCCCC;
+  padding:10px;
+  margin:0px 10px 0px;
+  /*border:solid 1px #FF0000;*/}
+.ipt_popSearch_Puphlish{
+	width:30%;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;}
+.box_phlish_location{
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+.action_phlish{
+	height:35px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	background-color:#FFEAE5;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+.box_modal_iptSearch_Puphlish{
+	width:540px;
+	height:400px;
+	font-size:14px;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px 0px 50px;
+	overflow: scroll;
+	background-color:#CCC;
+	border-top:solid 1px #FF0000;
+	border-bottom:solid 1px #FF0000;
+	/*border:solid 1px #FF0000;*/}
+
+.boxmodal_list_user_Puphlish{
+	width:550px;
+	border-top:solid 1px #000000;	
+	/*border:solid 1px #000000;*/}
+.lbtb_code_Puphlish{padding:0px 0px;}
+.lbtb_Puphlish_name{padding:0px 40px;}
+.lbtb_stday_Puphlish{padding:0px 0px 0px 200px;}
+
+/* Style the buttons */
+.ul_puphlish{
+	cursor: pointer;
+	background-color:#CCC;
+	}
+
+.ul_puphlish li{
+  border: none;
+  outline: none;
+  padding: 2.5px 16px;
+  background:#CCC;
+  cursor: pointer;
+  font-size: 14px;
+  list-style-type: none;
+  transition:0.5s;
+}
+.ul_puphlish li:hover{
+ background-color:#3C9;
+ 
+}	
+.boxmodal_head_lit_us_Puphlish{
+	margin:5px;
+	/*border:solid 1px #FF0000;*/}
+.lbtb_Puphlish_name{
+	margin:20px;}
+.box_ad_Puphlish{
+	display: block;
+	padding:auto;
+	margin:auto;
+	text-align:right;
+	width:100%;
+	/*border:solid 1px #FF0000;*/}
+.ad_Puphlish{
+	display: inline-table;
+	padding:0;
+	margin:0px 0px 0px 0px;
+	width:60px;}
+.del_Puphlish{
+	display: inline-table;
+	padding:0;
+	margin:0px 100px 0px 0px;
+	width:60px;}
+.iconadsum{
+	font-size: 38px;
+}
+.tbcheckbox_puphlish{
+	cursor:pointer;
+	/*display:none;*/}
+#iconAdd_puphlish:hover{
+	color:#3CC;}		
+
+/*------------------------------popup Search album  ค้นหาชื่อชุดหนังสือ   path 1------------------------------------------------*/
+#iconAdd_albumbook{
+	width:60px;
+	}
+#iconAdd_albumbook:hover{
+	color:#3CC;}			
+	
+/*--------------------------------------popup Search album  ค้นหาชื่อชุดหนังสือ  path 2 ----------------------------------------*/
+.modal_box_popSearch_Album{
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_Album{
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:700px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popSearch_Album{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popSearch_Album:hover,
+.close_popSearch_Album:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_popSearch_Album{
+  width:95%;
+  display:block;
+  border-bottom:solid 1px #CCCCCC;
+  padding:10px;
+  margin:0px 0px 0px;
+ /* border:solid 1px #FF0000;*/}
+.ipt_popSearch_Album{
+	width:60%;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 20px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;}
+.box_phlish_Album{
+	height:35px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+.action_Album{
+	height:35px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	background-color:#FFEAE5;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+.box_modal_iptSearch_Album{
+	width:540px;
+	height:440px;
+	font-size:14px;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px 0px 50px;
+	overflow: scroll;
+	background-color:#CCC;
+	border-top:solid 1px #FF0000;
+	border-bottom:solid 1px #FF0000;
+	/*border:solid 1px #FF0000;*/}
+
+.boxmodal_list_user_Album{
+	width:550px;
+	border-top:solid 1px #000000;	
+	/*border:solid 1px #000000;*/}
+.lbtb_code_Album{padding:0px 0px;}
+.lbtb_Puphlish_Album{padding:0px 40px;}
+.lbtb_stday_Album{padding:0px 0px 0px 200px;}
+
+/* Style the buttons */
+.li_Album{
+  border: none;
+  outline: none;
+  padding: 2.5px 16px;
+  background-color:#CCC;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.li_Album:hover {
+  background-color: #666;
+  color: white;
+}
+.boxmodal_head_lit_us_Album{
+	margin:5px;
+	/*border:solid 1px #FF0000;*/}
+.lbtb_Album_name{
+	margin:20px;}
+.box_ad_Album{
+	padding:auto;
+	margin:auto;
+	text-align:right;
+	width:100%;
+	border:solid 1px silver;}
+.ad_Album{
+	padding:0;
+	margin:0px 0px 0px 0px;
+	width:60px;}
+.del_Album{
+	padding:0;
+	margin:0px 100px 0px 0px;
+	width:60px;}
+.tbcheckbox_Album{
+	/*display:none;*/}
+#iconAdd_Album:hover{
+	color:#3CC;}			
+.li_album{
+	margin:5px;
+	cursor:pointer;}	
+.action_Album{
+	height:40px;
+	width:60%;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	background-color:#FFEAE5;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+/*--------------------------------------------popup SEARCH BY album_HeadnameMore  ปอบอัพค้นหาชื่อเรื่องเพิ่มเติม------------*/
+.modal_box_popSearch_AlbumNamemore{
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_AlbumNamemore{
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:700px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popSearch_AlbumNamemore{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popSearch_AlbumNamemore:hover,
+.close_popSearch_AlbumNamemore:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_popSearch_AlbumNamemore{
+  width:95%;
+  display:block;
+  border-bottom:solid 1px #CCCCCC;
+  padding:10px;
+  margin:0px 0px 0px;
+ /* border:solid 1px #FF0000;*/}
+.ipt_popSearch_AlbumNamemore{
+	width:60%;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 20px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;}
+.box_phlish_AlbumNamemore{
+	height:35px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+.action_AlbumNamemore{
+	height:35px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	background-color:#FFEAE5;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+.box_modal_iptSearch_AlbumNamemore{
+	width:540px;
+	height:440px;
+	font-size:14px;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px 0px 50px;
+	overflow: scroll;
+	background-color:#CCC;
+	border-top:solid 1px #FF0000;
+	border-bottom:solid 1px #FF0000;
+	/*border:solid 1px #FF0000;*/}
+
+.boxmodal_list_user_AlbumNamemore{
+	width:550px;
+	border-top:solid 1px #000000;	
+	/*border:solid 1px #000000;*/}
+.lbtb_code_AlbumNamemore{padding:0px 0px;}
+.lbtb_Puphlish_AlbumNamemore{padding:0px 40px;}
+.lbtb_stday_AlbumNamemore{padding:0px 0px 0px 200px;}
+
+/* Style the buttons */
+.li_AlbumNamemore{
+  border: none;
+  outline: none;
+  padding: 2.5px 16px;
+  background-color:#CCC;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.li_AlbumNamemore:hover {
+  background-color: #666;
+  color: white;
+}
+.boxmodal_head_lit_us_AlbumNamemore{
+	margin:5px;
+	/*border:solid 1px #FF0000;*/}
+.lbtb_Album_Namemore{
+	margin:0px 0px 0px 50px;}
+.box_ad_AlbumNamemore{
+	padding:auto;
+	margin:auto;
+	text-align:right;
+	width:100%;
+	/*border:solid 1px #FF0000;*/}
+.ad_AlbumNamemore{
+	padding:0;
+	margin:0px 0px 0px 0px;
+	width:60px;}
+.del_AlbumNamemore{
+	padding:0;
+	margin:0px 100px 0px 0px;
+	width:60px;}
+.tbcheckbox_AlbumNamemore{
+	/*display:none;*/}
+#iconAdd_AlbumNamemore:hover{
+	color:#3CC;}			
+.li_albumNameMore{
+	margin:5px;
+	cursor:pointer;}	
+.action_AlbumNamemore{
+	height:40px;
+	width:60%;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	background-color:#FFEAE5;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}		
+#icondel_Headname{
+	font-size:36px;
+	font-weight:bold;
+	width:60px;}
+/*<!---------------------------------------------popup SEARCH HEAD NAME  ปอบอัพค้นหาหัวเรื่อง-----------*/
+.modal_box_popSearch_HeadName{
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_HeadName{
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:700px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popSearch_HeadName{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popSearch_HeadName:hover,
+.close_popSearch_HeadName:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_popSearch_HeadName{
+  width:95%;
+  display:block;
+  border-bottom:solid 1px #CCCCCC;
+  padding:10px;
+  margin:0px 0px 0px;
+ /* border:solid 1px #FF0000;*/}
+.ipt_popSearch_HeadName{
+	width:60%;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 20px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;}
+.box_phlish_HeadName{
+	height:35px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+.action_HeadName{
+	height:35px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	background-color:#FFEAE5;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}
+.box_modal_iptSearch_HeadName{
+	width:540px;
+	height:440px;
+	font-size:14px;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px 0px 50px;
+	overflow: scroll;
+	background-color:#CCC;
+	border-top:solid 1px #FF0000;
+	border-bottom:solid 1px #FF0000;
+	/*border:solid 1px #FF0000;*/}
+
+.boxmodal_list_user_HeadName{
+	width:550px;
+	border-top:solid 1px #000000;	
+	/*border:solid 1px #000000;*/}
+.lbtb_code_HeadName{padding:0px 0px;}
+.lbtb_Puphlish_HeadName{padding:0px 40px;}
+.lbtb_stday_HeadName{padding:0px 0px 0px 200px;}
+
+/* Style the buttons */
+.li_HeadName{
+  border: none;
+  outline: none;
+  padding: 2.5px 16px;
+  background-color:#CCC;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.li_HeadName:hover {
+  background-color: #666;
+  color: white;
+}
+.boxmodal_head_lit_us_HeadName{
+	margin:5px;
+	/*border:solid 1px #FF0000;*/}
+.lbtb_Album_HeadName{
+	margin:0px 0px 0px 50px;}
+.box_ad_HeadName{
+	padding:auto;
+	margin:auto;
+	text-align:right;
+	width:100%;
+	/*border:solid 1px #FF0000;*/}
+.ad_HeadName{
+	padding:0;
+	margin:0px 0px 0px 0px;
+	width:60px;}
+.del_HeadName{
+	padding:0;
+	margin:0px 100px 0px 0px;
+	width:60px;}
+.tbcheckbox_HeadName{
+	/*display:none;*/}
+#iconAdd_HeadName:hover{
+	color:#3CC;}			
+.li_albumNameMore{
+	margin:5px;
+	cursor:pointer;}	
+.action_HeadName{
+	height:40px;
+	width:60%;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	background-color:#FFEAE5;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;
+	display:inline-table;}		
+#icondel_Headname{
+	font-size:36px;
+	font-weight:bold;
+	width:60px;}					
+/*-------------------------------------popup addBarcode page copyt----------------------------------------*/
+.modal_box_popAdbarCodeAuto{
+	text-align:center;
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_popAdbarCodeAuto{
+text-align:center;
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:450px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popAdbarCodeAuto{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popAdbarCodeAuto:hover,
+.close_popAdbarCodeAuto:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_text{
+	position:relative;
+	display:flex;
+	alignment-adjust:middle;
+	text-align:center;
+	margin:auto;
+	margin:50px 100px 30px 100px; 
+	display:block;
+	width: 450px;
+	height:250px;
+	border:none;
+	border-top: solid 1px #008080;
+	border-bottom:solid 1px #008080;
+	/*border:solid 1px #000000;*/}
+.box_text_input{
+	padding:35px;
+	margin:25px;
+	/*border:solid 1px #FF0000;*/}
+.lb_adAutoBarcode{
+	float:left;
+	font-size:28px;
+	font-weight:600px;}
+.ipt_adAutoBarcode{
+	outline:none;
+	background-color:none;
+	font-size:22px;
+	width:100%;
+	padding:10px;
+	border:none;
+	border-bottom: solid 1px #FF0000;}
+.bt_adAutoBarcode{
+	padding:auto;
+	margin:auto;
+	font-size:35px;
+	width:150px;}	
+	
+.bt_adAutoBarcode{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bt_adAutoBarcode .sp_adAutoBarcode{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bt_adAutoBarcode .sp_adAutoBarcode:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bt_adAutoBarcode:hover .sp_adAutoBarcode{
+  padding-right: 25px;
+}
+
+.bt_adAutoBarcode:hover:hover .sp_adAutoBarcode:after {
+  opacity: 1;
+  right: 0;
+}
+.bt_adAutoBarcode:focus {
+	border:none;
+	outline:none;}	
+.box_text_showadAutoBarcode{
+	position:absolute;
+	bottom:0px;
+	/*border:solid 1px #FF0000;*/}
+	
+.text_code{
+	font-size:24px;
+	color:red;
+	font-weight:500px;
+	position:relative;
+	
+}
+/*-------------------------------------popup confirm DELETE Page copyt----------------------------------------*/
+.modal_box_popDeletePcopy{
+	text-align:center;
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_popDeletePcopy{
+text-align:center;
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:450px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popDeletePcopy{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popDeletePcopy:hover,
+.close_popDeletePcopy:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+.box_DeletePcopy{
+	position:relative;
+	width:450px;
+	height:250px;
+	display:flex;
+	margin:auto;
+	padding:auto;
+	justify-content:center;
+	alignment-adjust:center;
+	text-align:center;
+	border:none;
+	border-top: solid 1px #008080;
+	border-bottom:solid 1px #008080;
+	/*border:solid 1px #000000;*/}
+.box_text_DeletePcopy{
+	padding:35px;
+	margin:25px;
+	/*border:solid 1px #FF0000;*/}
+.lb_DeletePcopy{
+	float:left;
+	font-size:28px;
+	font-weight:600px;}
+.lb_headDeletePcopy{
+	margin:20px 0px  0px 70px;
+	float:left;
+	color:#008080;
+	font-size:24px;
+	font-weight:600px;}	
+.bt_DeletePcopy{
+	padding:auto;
+	margin:auto;
+	font-size:35px;
+	width:150px;}	
+	
+.bt_DeletePcopy{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bt_DeletePcopy .sp_DeletePcopy{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bt_DeletePcopy .sp_DeletePcopy:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bt_DeletePcopy:hover .sp_DeletePcopy{
+  padding-right: 25px;
+}
+
+.bt_DeletePcopy:hover .sp_DeletePcopy:after {
+  opacity: 1;
+  right: 0;
+}
+.bt_DeletePcopy:focus {
+	border:none;
+	outline:none;}	
+.box_text_showDeletePcopy{
+	position:absolute;
+	bottom:0px;
+	/*border:solid 1px #FF0000;*/}
+	
+.text_DeletePcopy{
+	font-size:24px;
+	color:red;
+	font-weight:500px;
+	position:relative;
+	
+		}	
+.loader{
+	position:relative;
+	width:180px;
+	height:120px;}
+.loader span{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	transform:rotate(calc(18deg * var(--i)));}
+.loader span::before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:15px;
+	height:15px;
+	background-color:#F60;
+	border-radius:50%;
+	transform: scale(0);
+	animation: animate 2s linear infinite;
+	animation-delay: calc(0.1s * var(--i));
+	}
+	@keyframes animate
+	{
+		0%
+		{
+			transform:scale(0);
+		}
+		10%
+		{
+			transform:scale(1.2);
+		}
+		80%,100%
+		{
+			transform:scale(0);
+		}
+		}
+.rocket{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	animation: rotating 2s linear infinite;
+	animation-delay: -1s;
+	}
+	@keyframes rotating
+	{
+		0%{
+			transform:rotate(10deg);
+			}
+			100%{
+				transform:rotate(370deg);
+				}
+		}
+.rocket::before{
+	position:absolute;
+	top:80px;
+	left:155px;
+	color:#D2691E;
+	content:'\f135';
+	font-family:fontAwesome;
+	font-size:50px;
+	transform: rotate(160deg);}						
+	
+.lb_DeletePcopy{
+	font-size:38px;
+	color:#D2691E;
+	position:absolute;
+	top:40px;
+	left:40px;
+	display:flex;}
+	
+/*-------------------------------------popup confirm DELETE Page Regis and inserList----------------------------------------*/
+.modal_box_popDeletePRegis{
+	text-align:center;
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_popDeletePRegis{
+text-align:center;
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width: 640px;
+  height:450px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_popDeletePRegis{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 20px 0px 0px;
+  font-size: 48px;
+  font-weight: bold;}
+.close_popDeletePRegis:hover,
+.close_popDeletePRegis:focus {
+  color: #20B2AA;
+  text-decoration: none;
+  cursor: pointer;}
+.box_DeletePRegis{
+	position:relative;
+	width:450px;
+	height:250px;
+	display:flex;
+	margin:auto;
+	padding:auto;
+	justify-content:center;
+	alignment-adjust:center;
+	text-align:center;
+	border:none;
+	border-top: solid 1px #008080;
+	border-bottom:solid 1px #008080;
+	/*border:solid 1px #000000;*/}
+.box_text_DeletePRegis{
+	padding:35px;
+	margin:25px;
+	/*border:solid 1px #FF0000;*/}
+
+.lb_headDeletePRegis{
+	margin:20px 0px  0px 70px;
+	float:left;
+	color:#008080;
+	font-size:24px;
+	font-weight:600px;}	
+.bt_DeletePRegis{
+	padding:auto;
+	margin:auto;
+	font-size:35px;
+	width:150px;}	
+	
+.bt_DeletePRegis{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #20B2AA;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bt_DeletePRegis .sp_DeletePRegis{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bt_DeletePRegis .sp_DeletePRegis:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bt_DeletePRegis:hover .sp_DeletePRegis{
+  padding-right: 25px;
+}
+
+.bt_DeletePRegis:hover .sp_DeletePRegis:after {
+  opacity: 1;
+  right: 0;
+}
+.bt_DeletePRegis:focus {
+	border:none;
+	outline:none;}	
+.box_text_showDeletePRegis{
+	position:absolute;
+	bottom:0px;
+	/*border:solid 1px #FF0000;*/}
+	
+.text_DeletePRegis{
+	font-size:24px;
+	color:red;
+	font-weight:500px;
+	position:relative;
+	
+		}	
+.loadel{
+	position:relative;
+	width:180px;
+	height:120px;}
+.loadel span{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	transform:rotate(calc(18deg * var(--i)));}
+.loadel span::before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:15px;
+	height:15px;
+	background-color:#20B2AA;
+	border-radius:50%;
+	transform: scale(0);
+	animation: animate 2s linear infinite;
+	animation-delay: calc(0.1s * var(--i));
+	}
+	@keyframes animate
+	{
+		0%
+		{
+			transform:scale(0);
+		}
+		10%
+		{
+			transform:scale(1.2);
+		}
+		80%,100%
+		{
+			transform:scale(0);
+		}
+		}
+.rocketdel{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	animation: rotating 2s linear infinite;
+	animation-delay: -1s;
+	}
+	@keyframes rotating
+	{
+		0%{
+			transform:rotate(10deg);
+			}
+			100%{
+				transform:rotate(370deg);
+				}
+		}
+.rocketdel::before{
+	position:absolute;
+	top:80px;
+	left:155px;
+	color:#20B2AA;
+	content:'\f135';
+	font-family:fontAwesome;
+	font-size:50px;
+	transform: rotate(160deg);}						
+	
+.lb_DeletePRegis{
+	font-size:28px;
+	color:#D2691E;
+	margin:0px 10px}
+/* -----------------------------------main top menu slide bar-------------------------     */
+
+.main-header-top .sidebar-togglez {
+	float: left;	
+	background-image: none;
+	padding: 15px;
+	font-family: fontAwesome;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	max-height: 50px; }
+	.main-header-top .sidebar-togglez:before {
+	  font-family: 'simple-line-icons';	 
+	  font-size: 15px; }
+	.main-header-top .sidebar-togglez:focus, .main-header-top .sidebar-togglez:active {
+		color: white;
+	  background: transparent; }
+	

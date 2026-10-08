@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# Environment / local config
+*.local
+.env*
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project files / generated files
+/file-chapters/
+/COVERIMAGES/*
+!/COVERIMAGES/.gitkeep
+
+/excelFile/
+/imageuser/
+/img/
+/PDFFILE/
+/mpdf-master/
+/PDFObject-master/
+/img-banner/
+/phpsv-ebooks/
+/config_library/
+/css-ebooks/
+/phpsv/*
+!/phpsv/*.php
+/php-process/
+/phpweb/
+/assets/
+/cs-jquery/
+/css/
+/ebook-filepage*
+/fileimage/
+/lib/
+/connectdata/*
+!/connectdata/*.php
+/file-chapters/

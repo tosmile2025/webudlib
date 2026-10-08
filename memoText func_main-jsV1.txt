@@ -1,0 +1,73 @@
+------------------------------------- Template css dashboard+version9-master//file extranal ssd/ F:\WEBPARK\UI-UX-css-html-js-dasboard bootstap\dashboard_version9-master
+
+-------------------------------------------แก้ไขเมื่อ 25/12/67
+	*---* เพิ่มแสดงแถบสีกำหนดวันคืนเป็นสีแดง
+	*--/ระบบปริ้นบาร์โค๊ดเป็นแถบสีในตัว
+	*--/โปรแกรมพร้อมใช้งาน
+	
+	
+---------------// Func_main.js---------------------------
+	--- ทำระบบอัพข้อมูล firebase  project budlib name Function *apiFetchLIstExportBooks* ,ShowApi_firebase
+	--ADDapi_firebase,Delete_api_firebase รองรับระบบ database online  แสดงรายการยืม
+	-- New function 
+		*** Sub_DeleteOrder_firebase
+		*** Delete_Order_firebase
+		*** Sub_ADD_Orderfirebase
+		*** func_ADDFireStoreOrderBK
+		*** Delete_api_firebase
+		*** ADDapi_firebase
+		*** ShowApi_firebase
+		*** apiFetchLIstExportBooks		
+		**** create show-data.php show-user.php------------
+--------------------15-1-2568------------------------------
+		*** firebaseApi_Update(renewbooks) 
+		*** func_updateFirebase(renewbooks) //clk_sendAjaxFixAay(กำหนดวันคืน)
+		*** ShowApi_firebaseUpdate(renewbooks) 
+		*** SetTimeOut_2500 //  settimeout--> ฟังก์ชั่นแสดงตอนยืม คืน จอง
+------------------------end------------------------------
+
+
+---///////////////--------------page recutBooks.php(index) เพิมหน้าคัดหนังสือออกจากระบบ
+	***recutBooks.php(index)
+	*** recutbooks-js.js
+	*** phpsv xlsxwriter.class.php
+	*** phpsv Recutbooks.php
+	*** folder excelFile
+---------------------------------end-----------------------------
+
+-----///////////// PDF label color ใช้งานได้   color_label.php---
+	*** ไฟล์แก้ไข  color_label.php
+	*** main_bcode.js
+	*** barcode.php /// หน้าเว็บ
+	*** pdf บาร์โค๊ดไฟล์เก่า color_label_Copy.php
+	*** แก้วันเดือนปีระบบแอดวัดหยุด main_calendar.js
+	*** แ้ก้ไข  color_label.php /$fontnum  ให้ตัดตัวอักษรจาก 10ตัว เป็น 15 ตัว
+
+-----//////////////แก้ไข 18-8-68
+*** กระดาษสติกเกอร์ ขนาด 18-046 หยุดผลิตจึงมาแก้โค้ดมาใช้ขนาด 18-035
+	*** สร้าง color_label_No035.php เก็บของเก่า color_label.php(ใช้กับกระดาษ18-046);
+		-ขนาดฟอร์นทำให้ td ขยายออก
+		-ไฟล์เอกสารตัวอย่างโครงสร้าง label sticker  ตัวอย่างโครงสร้างตาราง label sticker color อยู่ที่ C:\xampp\htdocs\budlib\css
+
+---///////////////แก้ไข 22-8-68  หน้าลงทะเบียนหนังสือ/หน้าสำเนาหนังสือ 
+	*** ไม่แสดงขนาดหนังสือ
+	show_detailCopy(barcode) 
+		ส่วนแก้ไข (if( data[0].Centimeters != null){			
+				iput[13].value = data[0].Centimeters;
+			}else{
+				iput[13].value = "";
+			})
+---//////////////แก้ไข 10-01-69 connectDB.php1  ให้เรียกใช้รหัสผ่าน .env------
+ 			*** ให้ตัวconnectDB.php อ่านข้อมูลรหัสเชื่อมฐานข้อมูลผ่าน .env
+---//////////////แก้ไข 5-01-69 ไฟล์  Func_main.js
+			ตรวจสอบชื่อ ----ฟังก์ชั่นสำหรับตรวจโปรแกรมโดนคัดลอก-----
+			*** ให้ฟังก์ชั่นตรวจสอบ ip host ก่อนการใช้งานยืมหนังสือ หาก ip host ไม่ตรงกับที่กำหนดไว้** ให้ลบไฟล์ในเครื่อง
+			****xml.open("POST", "../phpsv/checkIPHost.php");
+			**** และเช็ควันกำหนดหมดอายุ***มีระบบเตือนล่วงหน้าก่อน 1เดือน***
+--//////////////แก้ไข 4-5/03/69 เปลี่ยนมาใช้ปฏิทินแบบใหม่
+			**มีปรับปฏิทิน Func_main.js /  css / file page
+				-- -กำหนดวันคืนหนังสือ
+			**มีปรับปฏิทิน main_regisuser.js /  css / file page
+				--- วันหมดอายุสมาชิก
+
+

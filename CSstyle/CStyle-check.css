@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+/*----------------------------------หัวด้านบนสุด---------------------*/
+*{
+	padding:0;
+	margin:0;}
+
+html, body {
+  height: 100%;
+  margin:0;
+}
+.box_hed{
+	z-index: 1; /* Stay on top */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 10px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	width:100%;
+	height: 60px;
+	padding:auto;
+	margin: auto;
+	background-color:#CCC;
+	/*border:solid 1px #000000;*//*สีดำ*/}
+.barnavi_menu{
+	text-align:center;
+	width:64px;
+	height:50px;
+	padding:5px 0px 0px 0px;
+	margin:2px 0px 0px 0px;
+	cursor:pointer;
+	font-size:40px;
+	border:none;
+	cursor:pointer;
+	border-right: solid 0.5px #000000;
+	/*border:solid 1px #000000;*/}
+.barnavi_menu:hover{
+	color:#F00;}
+.box_hed_logo{
+	alignment-adjust:middle;
+	position:absolute;
+	top:10px;
+	padding:0px;
+	background-color:#FFF;
+	margin:0px 0px 0px 100px;
+	text-align:center;
+	width:45px;
+	height:45px;
+	border-radius:50px;
+	/*border:solid 1px #000066;*//*น้ำเงินเข้ม*/}
+#icon_logo{
+	padding:2px;}
+.box_hed_lb{
+	position:absolute;
+	top:20px;
+	margin:0px 0px 0px 170px;
+	text-align:center;
+	font-size:18px;
+	/*border:solid 1px #000066;*//*น้ำเงินเข้ม*/}
+.box_hed_pic_login{
+	position:absolute;
+	right: 20px;
+	display:flex;
+	top:10px;
+	margin:0px 2px 0px 0px;
+	padding:10px;
+	cursor:pointer;
+	border-left:solid 1px #FFFFFF;
+	border-right:solid 1px #FFFFFF;
+	/*border:solid 1px #F00;*//*สีแดง*/}
+#dropbtn_logout{
+	margin:15px 10px 0px 0px;}
+#dropbtn_logout:hover{
+	color:red;}
+.box_head_name_lb{
+	/*padding:20px 0px 20px 20px;*/
+	margin:15px 10px 0px 0px;}
+@media only screen and (max-width: 900px) {
+	.box_hed_lb{
+		display:none;
+		font-size:12px;}
+	
+	}
+/*--------------------------------------------------------------Css dropdown menu logout-----------------------*/
+.box_dropdown_logout{
+	position:absolute;
+	display:inline-table;
+	right:210px;
+	top:70px;
+	text-decoration:none;
+	cursor:pointer;
+	transition: background 1s;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+	/*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+.dropdown-content .ahref_dropdown{
+	width:155px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.box_dropdown_logout .ahref_dropdown:hover{background-color: #ddd;}
+.show_dropdown_logout{display: block;}
+.show_disnone{
+	display:none;}
+
+/* css ----------------------------------------------------------css ส่วนจัดการเมนู Side ON MeNu Bar------------------------------*/
+.box_menu_sideon{
+	position:absolute;
+	float:left;
+	display:flex;
+   	width:66px; /* 0 width - change this with JavaScript */
+	height:100%;
+	z-index: 1; /* Stay on top */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	background-color:#CCC;
+	/*border:solid 1px #FF0000;*//*สีแดง*/}
+.boxul_menu_li{
+	list-style:none;
+	margin:0px 5px 0px 5px;
+	display:flex;
+	transition: 0.3s;
+	cursor:pointer;
+	border:none;
+	transition: all 0.5s ease-in-out;
+	border-bottom:solid 1px #000000;
+	/*border:solid 1px #F0C;*//*สีชมพู*/}
+
+.boxul_menu_li:hover{
+	background-color:#999;}
+.iconCloseX{
+	text-align:right;
+	right:10px;}
+#iconClose{
+	cursor:pointer;
+	padding:0px 10px 0px 0px;}
+#iconClose:hover{
+	color:#F06;}
+#iconside{
+	font-size:34px;
+	display:block;
+	padding:20px 3px 20px 3px;
+	margin:0px 0px 0px 10px;
+	cursor:pointer;}
+.lb_menu_sideon{
+	display:block;
+	padding:25px 0px 0px 20px;}
+	
+.hover_collapse{
+	width:200px;}/*-----------------------css  function myClicKSide-----------------------------*/
+
+/*---------------------------------------------------------------------------Css function TAB MENU----------------------------------------------------------*/
+
+.boxul_menu_side .boxul_menu_li.active{
+	background-color:#F33;}
+.taB_Page{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	width:100%;
+	/*border:solid 5px #000099;สีน้ำเงิน*/}
+.taB_Content{
+	background-color:#999;
+	margin:0px auto;
+	padding:0px auto;}
+
+	
+<!------------------------------------------------------------------CSS----หน้า หน้ายืมคืน page ---------------------------------------------------*/
+#taB_book{
+	/*margin:0px;
+	padding:0px;
+	display:flex;*/}
+.c_tab_circulation{
+	position:relative;
+	display:block;
+	padding:auto;
+	margin:auto;
+	text-align:right;
+	width:100%;
+	background-color:#999;
+	/*border:solid 5px #FF0000;*//*สีแดง*/ 
+	}
+.c_sub_cirulation{
+	display:inline-table;
+	width:650px;
+	height:35px;
+	padding:20px 0px;
+	/*border: solid 5px #F00;*/}
+.cirulation_bar{
+	display:block;
+	position:relative;
+	height:55px;
+	width:100%;
+	background-color:#666;
+	/*border: solid 1px #00F;*/}
+.sub_cirulation_bar{
+	float:left;
+	padding:8px 10px 0px 5px;
+	/*border: solid 1px #000000;*/}
+.lb_txt_barCode{
+	position:absolute;
+	float:left;
+	padding:14px;}
+.txt_barCode{
+	width:300px;
+	height:40px;
+	outline:none;
+	font-size:20px;
+	border:none;
+	background-color:#999;
+	/*border-bottom:solid 1px #666666;*/
+	border-radius:3px;
+	padding:0px 0px 0px 80px}
+#iconCancelDB{
+	font-size:20px;
+	padding:10px;
+	cursor:pointer;
+	margin:0px 5px 0px 0px;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius:50px;
+	background-color:#CCC;
+ 	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+	/*border:solid 1px #FFFFFF;*/}
+#iconCancelDB:hover{
+	color:#F00;
+	box-shadow: 0 1px 1px 0 rgba(255, 0, 0, 0.8),0 1px 10px 0 rgba(255, 0, 0, 0.8);}
+.showtxt{
+	position:relative;
+	left:0px;
+	width:100%;
+	height:100%;
+	border: solid 1px #F00;}
+.showtxt .tbhed{
+	margin: 0px 0px 0px 60px;}
+.tbhed tr{}	
+.tbhed tr td{
+	text-align:center;
+	/*border:solid 1px #FF0000;*/
+	height: 10px;
+ 	width:450px;
+	border:solid 1px #CCCCCC;}
+.boxlstssss{
+	margin: 0px 0px 0px 60px;}
+.boxlstssss tr{}	
+.boxlstssss tr td{	
+	text-align:center;
+	/*border:solid 1px #FF0000;*/
+	height: 10px;
+ 	width:480px;
+	border:solid 1px #CCCCCC;}
+#icondowloadf{
+	position:absolute;
+	right:150px;
+	border-radius:50%;
+	padding:1px;
+	/*border:solid 1px #FF0000;*/
+	font-size:38px;
+	margin:0px;
+	cursor:pointer;}
+#icondowloadf:hover{
+	color:#FFF;}		
+.bx{
+	height:800px;
+	overflow:scroll;}
+.iptcount{
+	text-align:center;
+	width: 60px;
+	font-size:32px;}		

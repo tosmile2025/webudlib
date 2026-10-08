@@ -1,0 +1,328 @@
+
+.box_sub_canlendar{
+	/*display:flex;*/
+	margin:0px auto;
+	padding:0px auto;
+	width:100%;
+	height:100%;
+	border-right:solid 1px rgba(43, 61, 81, 0.1);
+	}
+.calendar{
+	justify-content: space-between;
+    align-items: center;
+	margin:0px auto;
+	padding:0px auto;
+	width:85%;
+	height:95%;
+	border:solid 1px rgba(43, 61, 81, 0.2);
+	 /* background-color:rgba(0, 0, 0, 0.1); */
+	/*border:solid 1px #00FFFF;*/}/*สีฟ้า*/
+.month{
+	 display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 30px;
+     text-align: center;
+   background-color: rgba(43, 61, 81, 0.9);
+     color: #fff;}
+.weekends{
+	background-color: rgba(43, 61, 81, 1);
+    color: #fff;
+    padding: 7px 0;
+    display: flex;}
+.weekends div {
+	font-size:24px;
+	width:14.28%;
+	text-align:center;}
+.days{
+	display:flex;	
+	flex-wrap:wrap;
+	font-weight:300;
+	padding:15px 0;}	
+.days div{
+	font-size:24px;
+	margin-bottom:30px;
+	padding:15px 0;}
+weekends div,
+.days div {
+	text-align:center;
+	width:14.28%;
+	transition: all 0.5s;}
+.days div:hover{
+	cursor:pointer;
+	background-color:#dfe6e9;}	
+.today{
+	border-radius: 50px;
+	background-color:#f57c00;
+	color:#FFF;}
+.fixday{
+	background-color:#F00;
+}	
+.prev_date{
+	color:#CCC;}	
+#month{
+	font-size:30px;}
+.prev,
+.next{
+	font-size:36px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	width:70px;
+	height:70px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius:50%;
+	transition: all 0.5s;}
+.prev:hover,
+.next:hover{
+	background-color: rgba(0, 0, 0, 0.2);
+	cursor:pointer;}
+
+.box_calendar_right{
+	justify-items: center;
+	width: 100%;
+	border-radius: 10px;
+	display:inline-table;
+	right:30px;
+	text-align:center;
+	background:rgba(43, 61, 81, 0.8);
+	padding:60px 10px;
+	margin:0px 0px 0px 0px;
+}
+.lb_hd{
+	color:#FFF;
+	font-size:20px;
+	margin: 10px 0;}
+.box_calendar_right_sub{	
+	margin:auto;
+	padding:auto;
+	width:100%;
+	height:100%;	
+}
+.box_calendar_right_sub_section{
+	margin:50px px;
+	width:95%;
+	height:500px;
+	background-color:white;
+
+}	
+.box_eleAd{
+	  display:flex;
+	width:100%;	
+	margin:10px 0;
+	justify-content: space-between;
+	/* border:solid 1px #F3F;ชมพู} */
+}
+.ele_ad_date{
+	width: 100%;
+	 /* display:inline-table;	 */
+	/*border:solid 1px #00C;*//*น้ำเงิน*/
+	text-align: left;
+	/* padding: 25px 20px; */
+    /* border-radius: 3px; */
+	margin-top: 5px;
+	padding: 5px;	
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    color: #6D737C;
+    font-size: 9px;
+    font-weight: 500;}
+.ele_ad_date p{
+	font-size: 12px;
+}
+#icondel_adcanlendar{
+	display: inline-block;
+      background: rgba(237,237,237,.4);
+      width: 60px;
+      height: 60px;
+	  font-size:26px;
+      float: right;
+      text-align: center;
+      line-height: 50px;
+     margin: 5px 10px 0 0;
+	 /*margin:5px;*/
+      border-radius: 100%;
+      cursor: pointer;
+      transition: all 350ms;}
+#icondel_adcanlendar:hover{
+        background: rgba(130,205,214,.4);}
+.btn_adcalendar{
+  background-color:#e7e7e7; color: black;
+  border: none;
+  color: #066;
+  padding: 15px 32px;
+  outline:none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  cursor: pointer;}
+.btn_adcalendar:hover{
+	background-color:#CCC;
+	}	
+#iconcalenClose{	
+	display:flex;
+	/*border:solid 1px #000099;*/
+	float:right;
+	color: white;
+	margin-top:-13px;
+	padding:5px;}
+#iconcalenClose:hover{
+	color:#666;}
+#date_str{
+	font-size: 16px;
+	color: white;
+}
+#foolterset-css{
+	text-align: right;
+	color: rgb(170, 169, 169);
+}
+/* -----------------------------------main top menu slide bar-------------------------     */
+
+.main-header-top .sidebar-togglez {
+	float: left;	
+	background-image: none;
+	padding: 15px;
+	font-family: fontAwesome;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	max-height: 50px; }
+	.main-header-top .sidebar-togglez:before {
+	  font-family: 'simple-line-icons';	 
+	  font-size: 15px; }
+	.main-header-top .sidebar-togglez:focus, .main-header-top .sidebar-togglez:active {
+		color: white;
+	  background: transparent; }		
+	
+/*----------------------------------------------------css POPUP fines  input วันหยุด label------------------------------------------------------------*/	
+.modal_box_cash{
+	padding:auto;
+	margin:auto;
+ 	display:none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;   
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_cash{
+  position: relative;
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0px;
+  top:100px;
+  border: 1px solid #888;
+  width:400px;
+  height:350px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close_cash{
+  color: #aaaaaa;
+  float: right;
+  margin:0px 15px 0px 0px;
+  font-size: 38px;
+  font-weight: bold;}
+.close_cash:hover,
+.close_cash:focus {
+  color: crimson;
+  text-decoration: none;
+  cursor: pointer;}
+.box_cash{
+  width:350px;
+  display:block;
+  border-bottom:solid 1px #CCCCCC;
+  padding:10px;
+  margin:0px 10px 0px;}
+.box_cash label{
+    color: crimson;
+}
+.ipt_cash{
+	text-align:right;
+	width:150px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding:0px 30px;
+	border-top:solid 1px #006600;
+	border-bottom:solid 1px #006600;}
+
+
+.boxmodal_head_lit_us_cash{
+	width: 100%;
+	/* border-top:solid 1px #000000; */
+	/* border:solid 1px #000000;  */
+}
+.h-txtpopup{
+ display: flex;
+padding: 10px;
+}
+.txt-center{
+	text-align: center;
+	}
+.ipt_cash_fines{
+	display: inline-table;
+	width: 90%;
+	margin: 5px;
+	border: none;
+	background-color: #dddd;
+	/* border:solid 1px red; */
+	/* border-bottom:solid 1px #999999; */
+	}
+.lb_bath{
+	display:inline-table;}
+.boxmodal_head_lit_us_cash_sub{
+	position:absolute;
+	display:flex;
+	top:120px;
+	margin:0px 50px;
+	padding:5px;
+	/*border-top:solid 1px #000000;*/	
+	/*border:solid 1px #000000;*/}
+.lb_cash_sub{
+	margin:5px;
+	position:absolute;
+    color: crimson;}
+.ipt_cash_fines_sub{
+	border:none;
+	border-bottom:solid 1px #999999;
+	padding:7px 7px 7px 150px;
+	width:100%;
+}
+.lb_bath_sub{
+	display:inline-table;}
+.boxmodal_head_lit_us_cash_pass{
+	position:absolute;
+	display:flex;	
+	top:160px;
+	margin:0px 50px;
+	padding:5px;
+	/*border-top:solid 1px #000000;*/	
+	/*border:solid 1px #000000;*/}
+.lb_cash_pass{
+	margin:5px;
+	position:absolute;}
+.ipt_cash_fines_pass{
+	border:none;
+	border-bottom:solid 1px #999999;
+	padding:7px 7px 7px 150px;
+	width:100%;}
+.lb_bath_pass{
+	display:inline-table;}
+.boxfoot_cash{
+	position:absolute;
+	right:50px;
+	bottom:30px;
+	/* border:solid 1px #666666; */
+}

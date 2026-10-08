@@ -1,0 +1,402 @@
+/* -------------css menu position select barcode----------- */
+	.btnsend{
+		padding: 3px;
+	}
+.tb_pStick{
+	margin:20px 0px 0px 15px;
+	width:250px;
+	display:inline-table;
+	/*border:solid 1px #000000;*/}
+.td_pStick{
+	position:relative;
+	width:110px;
+	display:inline-table;
+	/*border:solid 1px #000000;*/}
+.container_po {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container_po input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius:50px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container_po:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_po input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container_po input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_po .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.select_all_position{	
+	display:inline-table;
+	
+	/*border:solid 1px #FFFFFF;*/}
+.btn_slt_position{	
+	outline:none;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:50px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	width:50px;
+	height:30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.btn_slt_position:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.box_enter_position{	
+	width:100%;		
+	/*border:solid 1px #FFFFFF;*/}
+.btn_ad_position{
+	margin:0px 0px 0px 100px;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:5px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	width:100px;
+	height:40px;
+	padding:8px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+	}
+.btn_ad_position:hover{
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;}
+#foolterset-css{
+		text-align: right;
+		color: rgb(170, 169, 169);
+}		
+.select-menu{
+	position: relative;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.select-menu .select-btn{
+	position: relative;
+	display: flex;
+	height: 55px;
+	background: white;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 200;
+	border-radius:  5px;
+	align-items: center;
+	cursor: pointer;
+	justify-content:  space-between;
+	box-shadow: 0 0 3px rgb(0,0,0,0.2);
+}
+.select-btn i{
+	font-size: 20px;
+	transition: 0.8s;
+}
+.select-menu .options{
+	position:relative;
+	display: none;
+	padding: 20px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background: white;
+	box-shadow: 0 0 3px rgb(0,0,0,0.2); 
+
+}
+.select-menu.active .options{
+	display:block;
+}
+.options .option{
+	width: 100%;	
+	display:flex;
+	height: 55px;
+	cursor: pointer;
+	 padding: 0 16px; 
+	text-align: center;
+	align-items: center;
+	border-radius:5px;
+	background: white;
+}
+.options .option:hover{
+	background: #F2F2F2;
+}
+.option i{
+	font-size:25px;
+	margin-right: 12px;
+}
+.select-menu.active .select-btn i{
+	transform:  rotate(-180deg);
+}
+.option .option-text{	
+	font-size: 18px;
+	/* color: brown; */
+}
+.col-nowidth-row2{
+	width: 100%;
+	padding: 15px 0px;
+}
+.box_select_position{
+	display: block;
+	width: 100%;
+	padding: auto;
+	margin: auto;
+	align-items: center;
+}
+.tb_pStick{
+	width: 100%;
+	/* border: solid 1px red; */
+} 
+
+/*--------------------------------------------หน้าแสดงตัวอย่างปริ้นสติกเกอร์-------------------*/
+
+	/*------------------------------------css pdf in php แสดงตัวอย่างตำแหน่งการปริ้นสติ๊กเกอร์ บาร์โค้ด-------------------------------*/
+.box_rejisbarcode{
+	width:100%;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	background-color:#207A3B;
+	background: rgb(90,238,200);
+	background: linear-gradient(180deg, rgba(90,238,200,1) 0%, rgba(216,247,240,1) 95%);
+	/* border:solid 1px #FF0000;สีแดง */
+	/*border:border:solid 2px #FF0000;*/}
+*{
+	box-sizing: border-box;
+}
+.table-responsive{		
+	padding: 0;
+	margin: 0;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/* border: solid 1px #2196F3; */
+}
+.cxltext{	
+	margin: 5px;
+	padding: 10px;
+	height: 150px;
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+	box-shadow: 0 0 3px rgb(0,0,0,0.1);
+}
+
+#close_boxsticker{
+	color: #0061a7;
+}
+.icon-setting{
+	padding-right: 5px;
+	font-size: 20px;
+	color:#FF5252;
+}
+.icon-dropdown{
+	padding-right: 5px;
+	font-size: 20px;
+	color:#FF5252;
+}
+.box-txt-help{
+	text-align: left;
+}
+.box_stickerbarcode{
+	
+	align-items: center;
+	display: flexbox;	
+	max-width:720px;
+	height: 800px;
+	/* background-color: red; */	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/* border: solid 1px #e78d06; */
+	size:auto;
+    margin:2px 0px 0px 1px;  /* เป็นการกำหนดขอบกระดาษของเนื้อหาที่จะพิมพ์ก่อนที่จะส่งไปให้เครื่องพิมพ์ครับ */
+	font-size:30px;
+	/* border:solid 1px rgb(44, 146, 13); */
+}
+.box_stickerbarcode tbody tr td {
+		
+	font-size: 14px;
+	 /* border:solid 1px rgb(77, 15, 177);  */
+}
+
+.col1-stick, .col2-stick{	
+	display: inline-block;
+	width:350px;
+	height:160px;
+	margin:3px;
+	padding: 10px;
+	font-weight: 200;
+	border-radius:  5px;
+	box-shadow: 0 0 3px rgb(0,0,0,0.4);
+}
+.dashboard-product{
+	text-align: center;
+	align-items: center;
+	/* justify-content: center; */
+	justify-items: center;
+}
+.icon-hed-barcode{
+	color: #FF5252;
+	font-size: 20px;
+	padding-right: 5px;
+}
+@page 
+    {
+	size:auto; 
+        margin:4mm 0mm 0mm 25mm; 
+		font-size:30px;
+    }
+.col-cells{	
+	border:solid 1px rgb(206, 203, 11);
+	position: relative;	
+}	
+.col-cells div{
+	display:flex;
+	height:15px;
+	position:absolute;
+	right:2px;
+	top:2px;
+	cursor:pointer;
+	/* border:solid 1px #FF0000; */
+}
+.col-cells div:hover{
+	color:red;}	
+.col-cells table{
+	display:inline-table;
+}
+.td_fix{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+	}
+.td_text{
+	font-size:12px;
+    width: 177px; 
+    overflow: hidden;
+	text-overflow:ellipsis;
+	text-align:center;
+	alignment-adjust:middle;}
+#namebk_stick{
+	margin: 0px 0px 0px 10px;
+	width:160px;
+	white-space: nowrap;    
+    overflow: hidden;
+    text-overflow: ellipsis;
+	/*border:solid 1px #F00;*/}	
+
+.bcodesvg{
+	width:150px;
+	height:30px;
+	/*border:solid 1px #FF0000;*/
+	}	
+.box_head_position{
+	/*border-bottom:solid 1px #FFF;*//*สีขาวบน*/
+	width:100%;
+	color:#FFF;
+	font-size:24px;
+	text-align:center;
+	padding:20px 0px 0px 0px;
+	background: rgb(12,180,135);
+	background: linear-gradient(90deg, rgba(12,180,135,1) 0%, rgba(12,181,139,1) 76%, rgba(11,184,163,1) 95%, rgba(19,187,174,1) 100%);
+	height:30px;}
+.lb_head_position{
+	margin:0px 0px 0px 10px}
+
+.box_line_border{
+	width:900px;
+	margin:auto;
+	padding:auto;
+	/*background: rgb(12,180,135);
+	background: linear-gradient(90deg, rgba(12,180,135,1) 0%, rgba(12,181,139,1) 76%, rgba(11,184,163,1) 95%, rgba(19,187,174,1) 100%);*/
+	border-left:solid 1px #FFF;
+	border-right:solid 1px #FFF;/*สีขาว*/}
+/* -----------------------------------main top menu slide bar-------------------------     */
+
+.main-header-top .sidebar-togglez {
+	float: left;	
+	background-image: none;
+	padding: 15px;
+	font-family: fontAwesome;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	max-height: 50px; }
+	.main-header-top .sidebar-togglez:before {
+	  font-family: 'simple-line-icons';	 
+	  font-size: 15px; }
+	.main-header-top .sidebar-togglez:focus, .main-header-top .sidebar-togglez:active {
+		color: white;
+	  background: transparent; }
+
+
+
+
+
+

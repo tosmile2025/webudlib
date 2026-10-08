@@ -1,0 +1,423 @@
+.dashboard-product{    
+    text-align: left;
+    border: solid 1px red;
+}
+.icon-dfual{
+    color: #f57C00;
+}
+.sp-hed-text{
+    padding-left: 10px;
+}
+/* ---------------------------------------------css regis data user--------------------- */
+.box_pic_regisusers{
+	display:flex;
+	position:relative;
+	text-align:left;
+	margin:0px;
+	padding:0px 0px 20px 0px;
+	width:92.5%;
+	background:#FFF;
+	/*width:250px;*/
+	/*border:solid 5px #FFFFFF;*/
+	
+}
+/*---------------------------------css list name user  */
+.mainboxsearch_gsuser{
+	margin:0px 0px 0px 0px;
+	width:100%;
+	/*background:#FFF;*/
+	padding:25px;
+	/*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/}		
+.mainboxsearch_gsuser .boxsub_search_gsuser{
+	width:70%;
+	height:40px;
+	position:relative;
+	}
+.mainboxsearch_gsuser .boxsub_search_gsuser input{
+	font-size:16px;
+	height:100%;
+	width:100%;
+	padding:0px 0px 0px 15px;
+	border:none;
+	outline:none;
+	border-bottom: 2px solid silver;}
+.boxsub_search_gsuser input:focus ~ label,	
+.boxsub_search_gsuser input:valid ~ label{
+	transform: translateY(-20px);
+	color:red;
+	}	
+.mainboxsearch_gsuser .boxsub_search_gsuser label{
+	position:absolute;
+	bottom:10px;
+	left:0;
+	color:#099;
+	font-weight:900px;
+	font-size:18px;
+	pointer-events:none;
+	transition: all 0.3s ease;
+	}		
+.mainboxsearch_gsuser .boxsub_search_gsuser .underline{
+	position:absolute;
+	bottom:-2px;
+	height:2px;
+	width:100%;
+	}	
+.boxsub_search_gsuser .underline:before{
+	position:absolute;
+	left:0px;
+	content:"";
+	height:100%;
+	width:100%;
+	background:red;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;}	
+.boxsub_search_gsuser input:focus ~ .underline:before,	
+.boxsub_search_gsuser input:valid ~ .underline:before{
+	transform: scaleX(1);
+	}
+.boxlisnameuserrg{
+	text-align:center;
+	display:block;
+	margin: auto;
+	padding:auto;
+	width:80%;
+	height:600px;
+	background-color:#F0F8FF;
+	/* border:solid 0.5px #066; */
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+	}
+.boxlisnameuserrg ul{
+	padding:0;
+	margin:10px;
+	display:block;}			
+.boxlisnameuserrg ul li{
+	font-size:12px;
+	text-align:left;
+	cursor:pointer;
+	padding:2px;
+	text-decoration: none;
+	 list-style-type:none;
+	border-bottom:solid 1px silver;
+	transition: all 0.3s ease;}
+.boxlisnameuserrg ul li:hover{
+	color:#FFF;
+	background: rgb(73,202,173);
+	background: linear-gradient(225deg, rgba(73,202,173,1) 60%, rgba(61,190,143,1) 78%, rgba(59,232,162,1) 94%);
+	}
+    /*--------------------------css btn add edit del-----------user */	
+    .boxiconmenu{
+        border-radius:4px;
+        position:fixed;
+        margin:0;
+        text-align:center;
+        /*top:2px;*/
+        left:auto;
+        right:0;
+        width:60px;
+        padding:5px;
+        bottom:40%;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+        background: #F57C00;
+         background: linear-gradient(225deg, rgb(245, 151, 63) 0%, rgb(241, 190, 19) 50%, rgb(248, 54, 6) 100%); */
+        }	
+    .boxiconmenu .fa-plus-circle, .fa-pencil-square-o, .fa-trash-o{
+        display:block;
+        margin:1px;
+        /*color:#20B2AA;*/
+        font-size:38px;
+        }
+    .btadduser{
+        background-color: #4CAF50;
+        border-radius:5px;
+        color:#fff;
+        padding:5px;
+        text-decoration:none;
+        cursor:pointer;
+        margin:3px;
+        transition: 1s;
+        -webkit-transition: 1s;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+        /*border: 1px solid #444;*/
+        border-bottom:1px solid #444;
+        box-shadow: inset 0 i1px 0 0 rgba(255, 255, 255, .6), inset 0 -1px 0 0 rgba(0, 0, 0, .4);
+        background: linear-gradient(to bottom, #d33672, #5f3847);}
+.btadduser:hover{	
+        background-color: #f77dac;
+        background: linear-gradient(to bottom, #f77dac, #d33672);		
+    }
+.editusericon{
+        background-color: #4CAF50;
+        border-radius:5px;
+        color:#fff;
+        padding:5px;
+        text-decoration:none;
+        cursor:pointer;
+        margin:3px;
+        transition: 1s;
+        -webkit-transition: 1s;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+        border-bottom:1px solid #444;
+        box-shadow: inset 0 i1px 0 0 rgba(255, 255, 255, .6), inset 0 -1px 0 0 rgba(0, 0, 0, .4);
+        background: linear-gradient(to bottom, #d33672, #5f3847);}
+ .active, .editusericon:hover{	
+        background: #066158;
+        /*background: linear-gradient(to bottom, #f77dac, #d33672);*/		
+    }
+/*-------------------------------------popup ปฎิทินกำหนดวันคืนหนังสือเอง--------------------------------------*/
+.modal_box_popCalanfixday{
+	padding:auto;
+	margin:auto;
+ 	display: none; /* Hidden by default */
+	position:fixed;
+	top:0px;
+	left:0px;
+ 	width: 100%; /* Full width */
+  	height: 100%; /* Full height */
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content_popCalanfixday{
+ text-align:center;
+ position: relative;
+  display:block;
+  background-color: white;
+  margin: auto;
+  padding: 0px;
+  top:190px;
+  border: 1px solid #888;
+  width: 300px;
+  height:220px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+   border-radius: 25px;
+}
+
+.close_popCalanfixday{
+  position:absolute;
+  align-items: center;
+  bottom:0px;
+  color: #aaaaaa;
+  margin:0px 20px 0px 0px;
+  font-size: 22px;
+  font-weight: bold;}
+.close_popCalanfixday:hover,
+.close_popCalanfixday:focus {
+  color: #20B2AA;
+  text-decoration: none;
+  cursor: pointer;}
+.calendarpop{
+	 border-radius: 25px;
+	justify-content: space-between;
+    align-items: center;
+	margin:0px auto;
+	padding:0px auto;
+	width:100%;
+	height:100%;
+	border:solid 2px #1ABDB9;
+	background-color:#F2FAFA ;
+	/*border:solid 1px #00FFFF;*/}/*สีฟ้า*/
+.monthpop{
+	 border-radius: 25px 25px 0px 0px;
+	 display: flex;
+    justify-content: space-between;
+    align-items: center;
+     text-align: center;
+    background: rgb(25,190,166);
+	  background: linear-gradient(270deg, rgba(25,190,166,1) 45%, rgba(61,232,190,1) 98%);
+     color: #fff;}
+.weekendspop_fixday{
+	background: rgb(9,163,141);
+	background: linear-gradient(270deg, rgba(9,163,141,1) 45%, rgba(0,232,198,1) 98%);
+    color: #fff;
+    padding: 3px 0;
+    display: flex;}
+.weekendspop_fixday div {
+	font-size:10px;
+	width:14.28%;
+	text-align:center;}
+.dayspop_fixday{
+	display:flex;	
+	flex-wrap:wrap;
+	font-weight:300;
+	padding:2px 0;}	
+.dayspop_fixday div{
+	font-size:11px;
+	margin-bottom:2px;
+	padding:2px 0;}
+weekendspop div,
+.dayspop_fixday div {
+	border-radius:50px;
+	text-align:center;
+	width:14.28%;
+	transition: all 0.5s;}
+.dayspop_fixday div:hover{	
+	cursor:pointer;
+	background-color:#dfe6e9;}	
+.todaypop{
+	border-radius:50px;
+	background-color:#21C1BC ;
+	color:#FFF;}
+.prev_datepop{
+	color:#CCC;}	
+#monthpop{
+	font-size:30px;}
+.prevpop,
+.nextpop{
+	font-size:32px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	width:40px;
+	height:40px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius:50%;
+	transition: all 0.5s;}
+.prevpop:hover,
+.nextpop:hover{
+	background-color: rgba(0, 0, 0, 0.2);
+	cursor:pointer;}
+	/* ---------------------------------------------------ปฎิทินวันหมดอายุ	  */
+	.input-groupday{
+		display: flex;
+		padding: 5px;
+	  }
+	  .input-groupday span {
+	   width: 50px;
+		color: #006600;
+		justify-items: center;
+		text-align: center;
+		align-items: center;
+	  }
+	 /* /-------------------------------input  ตำแหน่ง-------------------------------  */
+	 .select-menu{
+		position: relative;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.select-menu .select-btn{
+		position: relative;
+		display: flex;
+		height: 55px;
+		background: white;
+		padding: 20px;
+		font-size: 18px;
+		font-weight: 200;
+		border-radius:  5px;
+		align-items: center;
+		cursor: pointer;
+		justify-content:  space-between;
+		box-shadow: 0 0 3px rgb(0,0,0,0.2);
+	}
+	.select-btn i{
+		font-size: 20px;
+		transition: 0.8s;
+	}
+	.select-menu .options{
+		position:relative;
+		display: none;
+		padding: 20px;
+		margin-top: 10px;
+		border-radius: 5px;
+		background: white;
+		box-shadow: 0 0 3px rgb(0,0,0,0.2); 
+	
+	}
+	.select-menu.active .options{
+		display:block;
+	}
+	.options .option{
+		width: 100%;	
+		display:flex;
+		height: 55px;
+		cursor: pointer;
+		 padding: 0 16px; 
+		text-align: center;
+		align-items: center;
+		border-radius:5px;
+		background: white;
+	}
+	.options .option:hover{
+		background: #F2F2F2;
+	}
+	.option i{
+		font-size:25px;
+		margin-right: 12px;
+	}
+	.select-menu.active .select-btn i{
+		transform:  rotate(-180deg);
+	}
+	.option .option-text{	
+		font-size: 18px;
+		/* color: brown; */
+	}
+	.col-nowidth-row2{
+		width: 100%;
+		padding: 15px 0px;
+	}
+	.box_select_position{
+		display: block;
+		width: 100%;
+		padding: auto;
+		margin: auto;
+		align-items: center;
+	}
+	.tb_pStick{
+		width: 100%;
+		/* border: solid 1px red; */
+	}
+/* ------------------------------------------css select end day-------------------------------  */
+.selectposition {
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+	outline:0;
+	box-shadow:none;
+	border:0!important;
+	/* background: #5c6664; */
+	background-image: none;
+	flex: 1;
+	padding:0;	
+	color: #2B3D51CC;
+	border-color: #ddd;
+	cursor:pointer;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+ }
+.selectposition::-ms-expand {
+	display: none;
+ }
+ .slctype-posi {
+	color: #2B3D51CC;
+	font-weight: 500px;
+	position: relative;
+	display: flex;
+	width: 15em;
+	height: 3em;
+	line-height: 3;
+	border-color: #ddd;
+	/* background: #5c6664; */
+	overflow: hidden;
+	border-radius: .25em;
+ }
+ .slctype-posi::after{
+	content: '\25BC';
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 1em;	
+	cursor:pointer;
+	pointer-events:none;
+	border-color: #ddd;
+	transition:.25s all ease;
+ }
+ .slctype-posi:hover::after {
+	border-color: #ddd;
+	color: #23b499;
+ }

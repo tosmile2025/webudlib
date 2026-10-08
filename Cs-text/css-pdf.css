@@ -1,0 +1,255 @@
+/*----------------------------------------------css print----------------------------*/
+.boxsubboxPrint{
+	position:absolute;
+	left:25px;
+	border:solid 1px #F00;}
+.boxbody{
+	margin:20px;/*
+	border:solid 2px #F00;*/}
+.boxprint{
+	font-size:14px;
+	padding:0px;
+	margin:20px 0px 0px 0px;
+	width:100%;
+	/*display:block;*/
+	/*border:solid 1px #FF0000;*/}
+
+.boxHeadprint{
+	
+	width:100%;
+	height:35px;
+	background-color:#999;
+	/*border:solid 1px #333333;*/
+	border-top:solid 1px #333333;
+	border-bottom:solid 1px #333333;}
+.tb_head_print{
+	margin:2px;}
+.tr_head_print{}
+.td_h_print_pic{}
+.td_h_print_name{width:600px;}
+.td_h_print_lbcode{width:40px;}
+.td_h_print_iptcode{
+	color:#000;
+	width:100px;
+	 text-decoration: underline;}
+.img_LOGO{
+	
+	width:35px;
+	height:35px;}
+	
+.boxdetail_report{
+	margin:10px 0px 0px 0px;
+	height:100px;
+	border:solid 1px #000000;}
+.boxdetailprint{
+	font-size:14px;
+	margin:10px 0px 0px 20px;
+	display:inline-table;
+	/*border:solid 1px #333333;*/}
+.tb_detail_print{}
+.tr_detail_print{}
+.td_detail_pLp_tname{}
+.td_detail_pLp_name{
+	width:250px;
+	border-bottom:dotted 1px #000000;}
+.td_detail_pLp_tser{}
+.td_detail_pLp_sername{
+	width:200px;
+	padding:0px 10px;
+	border-bottom:dotted  1px #000000;}
+.tb_detail2{
+	margin:5px 0px 0px 0px;}
+.tr_detail_print_position{}
+.td_txt_position{}
+.td_ipt_position{
+	width:200px;
+	padding: 0px 20px;
+	border-bottom:dotted 1px #000000;}
+.td_txt_novalue{
+	width:200px;}
+.td_txt_product{}
+.td_ipt_product{
+	width:35px;
+	text-align:center;
+	border-bottom:dotted 1px #000000;}
+.tb_detail3{margin:2px 0px 0px 0px;}
+.tr_detail_print_comment{}
+.td_txt_comment{}
+.td_ipt_comment{
+	width:435px;
+	border-bottom:dotted 1px #000000;}
+.td_ipt_startday{
+	width:350px;
+	padding:0px 50px;
+	border-bottom:dotted 1px #000000;}
+.td_txt_novalue2{}
+.td_txt_renew{}
+.td_ipt_renew{width:35px;
+	text-align:center;
+	border-bottom:dotted 1px #000000;}
+.td_ipt_dayend{width:150px;
+	text-align:center;
+	border-bottom:dotted 1px #000000;}
+
+/*----------------------------------------------css print----------------------------*/
+.boxsubboxPrint{
+	position:absolute;
+	left:25px;
+	border:solid 1px #F00;}
+.boxbody{
+	margin:20px;/*
+	border:solid 2px #F00;*/}
+.boxprint{
+	font-size:14px;
+	padding:0px;
+	margin:20px 0px 0px 0px;
+	width:100%;
+	/*display:block;*/
+	/*border:solid 1px #FF0000;*/}
+
+.boxHeadprint{
+	
+	width:100%;
+	height:35px;
+	background-color:#999;
+	/*border:solid 1px #333333;*/
+	border-top:solid 1px #333333;
+	border-bottom:solid 1px #333333;}
+.tb_head_print{
+	margin:2px;}
+.tr_head_print{}
+.td_h_print_pic{}
+.td_h_print_name{width:600px;}
+.td_h_print_lbcode{width:40px;}
+.td_h_print_iptcode{
+	color:#000;
+	width:100px;
+	 text-decoration: underline;}
+.img_LOGO{
+	
+	width:35px;
+	height:35px;}
+	
+.boxdetail_report{
+	margin:10px 0px 0px 0px;
+	height:100px;
+	border:solid 1px #000000;}
+.boxdetailprint{
+	font-size:14px;
+	margin:10px 0px 0px 20px;
+	display:inline-table;
+	/*border:solid 1px #333333;*/}
+.tb_detail_print{}
+.tr_detail_print{}
+.td_detail_pLp_tname{}
+.td_detail_pLp_name{
+	width:250px;
+	border-bottom:dotted 1px #000000;}
+.td_detail_pLp_tser{}
+.td_detail_pLp_sername{
+	width:200px;
+	padding:0px 10px;
+	border-bottom:dotted  1px #000000;}
+.tb_detail2{
+	margin:5px 0px 0px 0px;}
+.tr_detail_print_position{}
+.td_txt_position{}
+.td_ipt_position{
+	width:200px;
+	padding: 0px 20px;
+	border-bottom:dotted 1px #000000;}
+.td_txt_novalue{
+	width:200px;}
+.td_txt_product{}
+.td_ipt_product{
+	width:35px;
+	text-align:center;
+	border-bottom:dotted 1px #000000;}
+.tb_detail3{margin:2px 0px 0px 0px;}
+.tr_detail_print_comment{}
+.td_txt_comment{}
+.td_ipt_comment{
+	width:435px;
+	border-bottom:dotted 1px #000000;}
+.td_ipt_startday{
+	width:350px;
+	padding:0px 50px;
+	border-bottom:dotted 1px #000000;}
+.td_txt_novalue2{}
+.td_txt_renew{}
+.td_ipt_renew{width:35px;
+	text-align:center;
+	border-bottom:dotted 1px #000000;}
+.td_ipt_dayend{width:150px;
+	text-align:center;
+	border-bottom:dotted 1px #000000;}
+
+/*----------------------------------------------------------------------------*/
+.tbPrintReportHead{
+	margin:10px;
+	border-bottom:dotted 1px #333333;}
+.tdPrintReport_bar{
+	text-align:center;
+	font-size:14px;
+	width:100px;
+	margin:5px;}
+.tdPrintReport_cat{
+	font-size:14px;
+	text-align:center;
+	width:150px;
+	margin:5px;}
+.tdPrintReport_endday{
+	text-align:center;
+	width:100px;
+	margin:5px;}
+.tdPrintReport_statday{
+	text-align:center;
+	width:100px;
+	margin:5px;}
+.tdPrintReport_name{
+	text-align:left;
+	width:300px;
+	margin:5px;}
+
+.print_statement{
+	width:100%;
+	display:inline-block;
+	/*border:solid 1px #FF0000;*/}
+.tb_cash_tb{
+	padding:10px 0px 0px 0px;
+	width:100%;}
+.tr_cash_tb{}
+.lb_noval{
+	width: 400px;}
+.lb_cashname{
+	text-align:right;
+	width:130px;
+	margin:0px;
+	padding:0px;}
+.itp_cashbath{
+	color:#000;
+	text-align:center;
+	width:100px;
+	border-bottom:dotted 1px #333333;}
+.lb_totalcash{
+	color:#000;
+	text-align:right;
+	argin:0px;
+	padding:0px;
+	width:80px;}
+.itp_totalcash{
+	color:#000;
+	text-align:center;
+	width:100px;
+	border-bottom:dotted 1px #333333;}
+.lb_paypal{
+	color:#000;
+	text-align:right;
+	argin:0px;
+	padding:0px;
+	width:120px;}
+.ipt_paypal{
+	color:#000;
+	text-align:center;
+	width:150px;
+	border-bottom:dotted 1px #333333;}
